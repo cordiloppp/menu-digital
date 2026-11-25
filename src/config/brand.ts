@@ -9,7 +9,7 @@
 export const MARCA = {
   nombre: 'Jona',
   /** 52 + 10 dígitos, sin espacios ni "+" */
-  whatsapp: '526640000000',
+  whatsapp: '526645462905',
   /** Mensaje del link del pie de página. {restaurante} se reemplaza por el nombre del negocio */
   mensaje: 'Hola, vi el menú digital de {restaurante} y me interesa uno para mi negocio.',
   /** Mensaje del botón "Lo quiero" de la franja de demo */
