@@ -3,6 +3,10 @@
 Menú digital con pedidos por WhatsApp para taquerías, loncherías, mariscos y cafeterías.
 Sitio 100% estático (sin servidor ni base de datos), se publica gratis en Vercel.
 
+**Demo en vivo:** https://menu-tacos-el-guero.vercel.app
+
+![Menú digital de Tacos El Güero](docs/captura.webp)
+
 Cada restaurante vive en su propia carpeta **`clients/<slug>/`**, así que puedes tener muchos demos y clientes en el mismo proyecto:
 
 ```
