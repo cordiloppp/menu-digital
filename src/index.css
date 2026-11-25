@@ -11,10 +11,10 @@
 }
 
 @theme {
-  --color-fondo: #f6f4f0;
-  --color-tinta: #1b1816;
-  --color-suave: #6b625b;
-  --color-linea: #e8e3dc;
+  --color-fondo: #f8f5f0;
+  --color-tinta: #1c1714;
+  --color-suave: #6b6158;
+  --color-linea: #ebe4da;
 
   --ease-suave: cubic-bezier(0.22, 1, 0.36, 1);
 
@@ -24,6 +24,22 @@
   --animate-desvanecer: desvanecer 0.22s ease-in both;
   --animate-pop: pop 0.3s var(--ease-suave);
   --animate-toast: toast 2.2s var(--ease-suave) both;
+  --animate-entrar: entrar 0.7s var(--ease-suave) both;
+  --animate-escala: escala 0.28s var(--ease-suave) both;
+  --animate-escala-salir: escala-salir 0.2s ease-in both;
+
+  @keyframes entrar {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes escala {
+    from { opacity: 0; transform: translateY(8px) scale(0.97); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes escala-salir {
+    from { opacity: 1; transform: none; }
+    to { opacity: 0; transform: translateY(6px) scale(0.98); }
+  }
 
   @keyframes subir {
     from { transform: translateY(100%); }
@@ -85,6 +101,22 @@
   }
 }
 
+/* Mientras carga la foto, un destello suave indica que viene en camino */
+@keyframes destello {
+  from { background-position: 150% 0; }
+  to { background-position: -50% 0; }
+}
+.esqueleto {
+  background: linear-gradient(100deg, #efe9e0 30%, #f7f3ed 50%, #efe9e0 70%) 0 0 / 200% 100%;
+  animation: destello 1.4s linear infinite;
+}
+
+/* Retrasos para la entrada escalonada de la portada */
+.retraso-1 { animation-delay: 80ms; }
+.retraso-2 { animation-delay: 160ms; }
+.retraso-3 { animation-delay: 240ms; }
+.retraso-4 { animation-delay: 320ms; }
+
 /* Las fotos aparecen con un fundido al terminar de cargar */
 .foto {
   opacity: 0;
@@ -114,5 +146,9 @@
 }
 
 @utility sombra-suave {
-  box-shadow: 0 1px 2px rgb(27 24 22 / 0.04), 0 6px 20px -10px rgb(27 24 22 / 0.18);
+  box-shadow: 0 1px 2px rgb(28 23 20 / 0.04), 0 8px 24px -14px rgb(28 23 20 / 0.22);
+}
+
+@utility sombra-elevada {
+  box-shadow: 0 2px 4px rgb(28 23 20 / 0.05), 0 18px 40px -18px rgb(28 23 20 / 0.32);
 }

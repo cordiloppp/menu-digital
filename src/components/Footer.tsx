@@ -4,7 +4,7 @@ import { linkWhatsApp } from '../lib/format'
 
 export function Footer() {
   return (
-    <footer className="mx-auto mt-10 max-w-2xl px-4 pt-6 pb-36 text-center text-xs leading-relaxed text-stone-600">
+    <footer className="mx-auto mt-12 max-w-6xl px-4 pt-6 pb-36 md:px-8 text-center text-xs leading-relaxed text-stone-600">
       <p>
         © {new Date().getFullYear()} {negocio.nombre} · Precios en pesos mexicanos, sujetos a cambio.
       </p>

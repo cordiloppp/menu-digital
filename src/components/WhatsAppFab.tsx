@@ -14,7 +14,7 @@ export function WhatsAppFab() {
       aria-label="Escríbenos por WhatsApp"
       aria-hidden={piezas > 0 || undefined}
       tabIndex={piezas > 0 ? -1 : undefined}
-      className={`fixed left-4 bottom-[calc(1.25rem+env(safe-area-inset-bottom))] z-40 grid h-13 w-13 place-items-center rounded-full bg-[#25D366] text-white shadow-[0_10px_28px_-8px_rgba(0,0,0,0.45)] transition-all duration-300 ease-out active:scale-90 ${
+      className={`fixed right-4 bottom-[calc(1.25rem+env(safe-area-inset-bottom))] z-40 md:right-8 md:bottom-8 grid h-13 w-13 place-items-center rounded-full bg-[#25D366] text-white shadow-[0_10px_28px_-8px_rgba(0,0,0,0.45)] transition-[opacity,transform] duration-300 ease-suave hover:scale-105 active:scale-90 ${
         piezas ? 'pointer-events-none translate-y-4 scale-75 opacity-0' : ''
       }`}
     >

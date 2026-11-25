@@ -11,7 +11,7 @@ export function CartBar({ onAbrir }: { onAbrir: () => void }) {
       <button
         type="button"
         onClick={onAbrir}
-        className="mx-auto flex h-14 w-full max-w-lg items-center gap-3 rounded-full bg-marca pr-6 pl-2 font-semibold text-marca-texto shadow-[0_12px_32px_-10px_rgba(0,0,0,0.5)] transition active:scale-[0.98]"
+        className="mx-auto flex h-14 w-full max-w-lg items-center gap-3 rounded-full bg-marca pr-6 pl-2 font-semibold text-marca-texto shadow-[0_12px_32px_-10px_rgba(0,0,0,0.5)] transition-[filter,transform] hover:brightness-110 active:scale-[0.98] md:h-15"
       >
         <span key={piezas} className="animate-pop grid h-10 min-w-10 place-items-center rounded-full bg-black/20 px-2 text-[15px] font-bold tabular-nums">
           {piezas}

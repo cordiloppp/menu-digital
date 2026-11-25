@@ -91,7 +91,7 @@ export default function App() {
 
       <CategoryNav ref={nav} categorias={secciones.map((s) => s.c)} activo={activo} onSelect={irA} onBuscar={enfocarBusqueda} />
 
-      <main id="menu" className="mx-auto min-h-[50vh] max-w-2xl px-4">
+      <main id="menu" className="mx-auto min-h-[50vh] max-w-6xl scroll-mt-16 px-4 md:px-8">
         {busqueda && totalResultados > 0 && (
           <p className="animate-aparecer pt-5 text-sm text-suave" role="status">
             {totalResultados} {totalResultados === 1 ? 'resultado' : 'resultados'} para “{busqueda}”

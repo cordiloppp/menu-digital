@@ -49,7 +49,7 @@ export function Sheet({ titulo, onClose, children }: Props) {
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center" role="dialog" aria-modal="true" aria-label={titulo}>
+    <div className="fixed inset-0 z-50 flex items-end justify-center md:items-center md:p-6" role="dialog" aria-modal="true" aria-label={titulo}>
       <div
         className={`absolute inset-0 bg-tinta/50 backdrop-blur-[3px] ${saliendo ? 'animate-desvanecer' : 'animate-aparecer'}`}
         onClick={cerrar}
@@ -57,11 +57,11 @@ export function Sheet({ titulo, onClose, children }: Props) {
       <div
         ref={panel}
         tabIndex={-1}
-        className={`relative flex max-h-[92dvh] w-full max-w-lg flex-col overflow-hidden rounded-t-[28px] bg-white shadow-2xl outline-none ${
-          saliendo ? 'animate-bajar' : 'animate-subir'
+        className={`relative flex max-h-[92dvh] w-full max-w-lg flex-col overflow-hidden rounded-t-[28px] bg-white shadow-2xl outline-none md:max-h-[86dvh] md:max-w-xl md:rounded-[28px] ${
+          saliendo ? 'animate-bajar md:animate-escala-salir' : 'animate-subir md:animate-escala'
         }`}
       >
-        <div className="pointer-events-none absolute top-2 left-1/2 z-10 h-1 w-10 -translate-x-1/2 rounded-full bg-black/15" aria-hidden />
+        <div className="pointer-events-none absolute top-2 left-1/2 z-10 h-1 w-10 -translate-x-1/2 rounded-full bg-black/15 md:hidden" aria-hidden />
         {children(cerrar)}
       </div>
     </div>

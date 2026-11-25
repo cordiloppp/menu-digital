@@ -23,7 +23,7 @@ export function InfoSection() {
   if (!horario && !hayUbicacion) return null
 
   return (
-    <section aria-label="Información del negocio" className="mx-auto mt-14 max-w-2xl px-4">
+    <section aria-label="Información del negocio" className="mx-auto mt-16 max-w-6xl px-4 md:mt-20 md:px-8">
       <div className={`grid gap-3 ${horario && hayUbicacion ? 'sm:grid-cols-2' : ''}`}>
         {/* Horario */}
         {horario && (
@@ -37,7 +37,7 @@ export function InfoSection() {
                 <li key={d} className={`flex justify-between gap-3 rounded-xl px-3 py-2 ${esHoy ? 'bg-fondo font-semibold' : ''}`}>
                   <span className="flex shrink-0 items-center gap-2">
                     {NOMBRE_DIA[d]}
-                    {esHoy && <span className="rounded-full bg-tinta px-1.5 py-px text-[10px] font-semibold tracking-wider text-white uppercase">Hoy</span>}
+                    {esHoy && <span className="rounded-full bg-tinta px-1.5 py-px text-[10px] font-semibold text-white">Hoy</span>}
                   </span>
                   <span className={`flex flex-col items-end text-right tabular-nums ${rangos.length ? '' : 'text-suave'}`}>
                     {rangos.length
@@ -84,7 +84,7 @@ export function InfoSection() {
 
           {redes.length > 0 && (
             <div className="mt-auto pt-6">
-              <p className="text-xs font-semibold tracking-[0.12em] text-suave uppercase">Síguenos</p>
+              <p className="text-[13px] font-semibold text-suave">Síguenos</p>
               <ul className="mt-2.5 flex gap-2">
                 {redes.map(({ clave, nombre, Icono }) => (
                   <li key={clave}>

@@ -7,7 +7,7 @@ export function DemoBanner() {
   if (!esDemo) return null
   return (
     <aside aria-label="Vista previa" className="bg-tinta text-white">
-      <div className="mx-auto flex max-w-2xl items-center gap-3 px-4 py-2.5">
+      <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-2.5 md:px-8">
         <p className="min-w-0 flex-1 text-[12.5px] leading-snug text-white/75">
           Vista previa preparada para <strong className="font-semibold text-white">{negocio.nombre}</strong>
           <span className="text-white/40"> · </span>
