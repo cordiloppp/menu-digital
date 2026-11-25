@@ -1,0 +1,44 @@
+{
+  "name": "menu-digital",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "new-client": "tsx scripts/new-client.ts",
+    "dev:client": "tsx scripts/dev-client.ts",
+    "deploy": "tsx scripts/deploy.ts",
+    "promote": "tsx scripts/promote.ts",
+    "qr": "tsx scripts/generate-qr.ts",
+    "fotos": "tsx scripts/optimize-images.ts",
+    "paleta": "tsx scripts/paleta.ts",
+    "placeholders": "tsx scripts/placeholders.ts",
+    "og": "tsx scripts/og.ts",
+    "validar": "tsx scripts/validate.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "zod": "^4.6.7"
+  }
+}

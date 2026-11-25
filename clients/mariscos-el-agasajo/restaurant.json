@@ -1,0 +1,2238 @@
+{
+  "mode": "demo",
+  "pedidosAlNegocio": true,
+  "sitio": {
+    "url": "https://mariscos-el-agasajo-demo.vercel.app"
+  },
+  "negocio": {
+    "nombre": "Mariscos El Agasajo",
+    "slogan": "Mariscos estilo Sinaloa",
+    "descripcion": "Mariscos estilo Sinaloa en Terrazas del Valle, Tijuana: aguachiles, ceviches, cócteles, barra caliente y sushi. Pide por WhatsApp.",
+    "logo": "/images/logo.webp",
+    "portada": "/images/portada.webp",
+    "imagenCompartir": "/images/og-image.jpg",
+    "whatsapp": "526643136578",
+    "telefono": "664 313 6578",
+    "direccion": "Terrazas del Valle, Tijuana, B.C.",
+    "googleMaps": "https://www.google.com/maps/search/?api=1&query=Mariscos+El+Agasajo+Terrazas+del+Valle+Tijuana",
+    "horario": {
+      "lunes": [
+        {
+          "abre": "09:00",
+          "cierra": "19:00"
+        }
+      ],
+      "martes": [
+        {
+          "abre": "09:00",
+          "cierra": "19:00"
+        }
+      ],
+      "miercoles": [
+        {
+          "abre": "09:00",
+          "cierra": "19:00"
+        }
+      ],
+      "jueves": [
+        {
+          "abre": "09:00",
+          "cierra": "19:00"
+        }
+      ],
+      "viernes": [
+        {
+          "abre": "09:00",
+          "cierra": "19:00"
+        }
+      ],
+      "sabado": [
+        {
+          "abre": "09:00",
+          "cierra": "19:00"
+        }
+      ],
+      "domingo": [
+        {
+          "abre": "09:00",
+          "cierra": "19:00"
+        }
+      ]
+    },
+    "entrega": {
+      "paraLlevar": true,
+      "domicilio": true,
+      "envioPorConfirmar": true,
+      "notaDomicilio": "Te confirmamos el costo de envío por WhatsApp."
+    }
+  },
+  "tema": {
+    "colorPrimario": "#132B6D",
+    "colorSecundario": "#FFE014",
+    "tipografia": "clasica",
+    "sinFoto": "texto"
+  },
+  "deliveryApps": [
+    {
+      "app": "didi",
+      "url": "https://www.didi-food.com/es-MX/food/store/5764607648977387755/Mariscos-El-Agasajo-Estilo-Sinaloa?channel=10&cityId=52020200&lat=32.481225&lng=-116.820721&ddlCode=q9TJD0&area=MX&lang=es-MX&appKey=ds&dp_sub2=googlemap&redirectType=2&params=dp_sub1%3D5764607648977387755%26dp_sub2%3Dgooglemap%26dp_sub3%3Des-MX%26dp_sub4%3D10%26dp_sub5%3D52020200%26dp_sub6%3D32.481225%26dp_sub7%3D-116.820721"
+    }
+  ],
+  "promociones": [],
+  "categorias": [
+    {
+      "id": "barra-fria",
+      "nombre": "Barra fría",
+      "tipo": "mariscos",
+      "productos": [
+        {
+          "id": "copa-especial",
+          "nombre": "Copa especial",
+          "descripcion": "Copa de mariscos frescos preparados al estilo de la casa.",
+          "precio": 300,
+          "foto": "/images/copa-especial.webp",
+          "disponible": true
+        },
+        {
+          "id": "mariscada",
+          "nombre": "Mariscada",
+          "descripcion": "Charola de mariscos frescos surtidos para compartir en grupo.",
+          "precio": 850,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Mediana (p/4 personas)",
+              "precio": 850
+            },
+            {
+              "nombre": "Grande (p/7 personas)",
+              "precio": 1400
+            }
+          ]
+        },
+        {
+          "id": "aguachile-mixto",
+          "nombre": "Aguachile mixto",
+          "descripcion": "Para 2. Camarón y mariscos curtidos en limón y chile, con pepino y cebolla.",
+          "precio": 500,
+          "disponible": true
+        },
+        {
+          "id": "charola-aguachile-mixto",
+          "nombre": "Charola de aguachile mixto",
+          "descripcion": "Charola de aguachile con camarón y mariscos, pepino y cebolla morada.",
+          "precio": 1000,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Para 4 personas",
+              "precio": 1000
+            },
+            {
+              "nombre": "Para 6 personas",
+              "precio": 1500
+            }
+          ]
+        },
+        {
+          "id": "charola-ceviche-camaron",
+          "nombre": "Charola de ceviche de camarón",
+          "descripcion": "Para 8 personas. Ceviche de camarón con tomate, cebolla y cilantro.",
+          "precio": 1100,
+          "disponible": true
+        },
+        {
+          "id": "charola-ceviche-pescado",
+          "nombre": "Charola de ceviche de pescado",
+          "descripcion": "Para 8 personas. Ceviche de pescado con tomate, cebolla y cilantro.",
+          "precio": 900,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "botanas",
+      "nombre": "Botanas",
+      "tipo": "mariscos",
+      "productos": [
+        {
+          "id": "agasajo-a-las-rocas",
+          "nombre": "Agasajo a las rocas",
+          "descripcion": "La botana de la casa: mariscos frescos bien preparados, a las rocas.",
+          "precio": 300,
+          "disponible": true
+        },
+        {
+          "id": "botana-para-picar",
+          "nombre": "Botana para picar",
+          "descripcion": "Camarón crudo, cocido y pulpo.",
+          "precio": 350,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Personal",
+              "precio": 350
+            },
+            {
+              "nombre": "Para compartir",
+              "precio": 500
+            }
+          ]
+        },
+        {
+          "id": "aguachile-sencillo",
+          "nombre": "Aguachile sencillo",
+          "descripcion": "Rojo, verde o negro.",
+          "precio": 220,
+          "etiquetas": [
+            "picante"
+          ],
+          "disponible": true
+        },
+        {
+          "id": "aguachile-con-pulpo",
+          "nombre": "Aguachile con pulpo",
+          "descripcion": "Camarón y pulpo curtidos en limón y chile, con pepino y cebolla.",
+          "precio": 350,
+          "etiquetas": [
+            "picante"
+          ],
+          "disponible": true
+        },
+        {
+          "id": "ostiones-al-patron",
+          "nombre": "Ostiones al patrón",
+          "descripcion": "Preparados con camarones cocidos.",
+          "precio": 300,
+          "foto": "/images/ostiones-al-patron.webp",
+          "disponible": true
+        },
+        {
+          "id": "mariscada-personal",
+          "nombre": "Mariscada personal",
+          "descripcion": "Mariscos frescos surtidos en porción individual.",
+          "precio": 350,
+          "disponible": true
+        },
+        {
+          "id": "molcajete",
+          "nombre": "Molcajete",
+          "descripcion": "Molcajete con mariscos frescos en su jugo, aguacate y pepino.",
+          "precio": 300,
+          "foto": "/images/molcajete.webp",
+          "disponible": true
+        },
+        {
+          "id": "mariscada-para-dos",
+          "nombre": "La mariscada para dos",
+          "descripcion": "Mariscos frescos surtidos para compartir entre dos.",
+          "precio": 500,
+          "disponible": true
+        },
+        {
+          "id": "camarones-cucaracha",
+          "nombre": "Camarones cucaracha",
+          "descripcion": "Camarones fritos con cáscara, bañados en salsa picosita.",
+          "precio": 200,
+          "etiquetas": [
+            "picante"
+          ],
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Orden",
+              "precio": 200
+            },
+            {
+              "nombre": "1/2 kg",
+              "precio": 280
+            },
+            {
+              "nombre": "1 kg",
+              "precio": 500
+            }
+          ]
+        },
+        {
+          "id": "camarones-para-pelar",
+          "nombre": "Camarones para pelar",
+          "descripcion": "Camarones cocidos con cáscara, listos para pelar con limón y salsa.",
+          "precio": 200,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Orden",
+              "precio": 200
+            },
+            {
+              "nombre": "1/2 kg",
+              "precio": 280
+            },
+            {
+              "nombre": "1 kg",
+              "precio": 500
+            }
+          ]
+        },
+        {
+          "id": "pata-de-mula-docena",
+          "nombre": "Pata de mula",
+          "descripcion": "Pata de mula fresca en su concha, con limón y salsa.",
+          "precio": 60,
+          "foto": "/images/pata-de-mula-docena.webp",
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1/2 docena",
+              "precio": 60
+            },
+            {
+              "nombre": "1 docena",
+              "precio": 110
+            }
+          ]
+        },
+        {
+          "id": "ostiones-docena",
+          "nombre": "Ostiones",
+          "descripcion": "Ostiones frescos en su concha, con limón y salsa.",
+          "precio": 90,
+          "foto": "/images/ostiones-docena.webp",
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1/2 docena",
+              "precio": 90
+            },
+            {
+              "nombre": "1 docena",
+              "precio": 170
+            }
+          ]
+        },
+        {
+          "id": "camarones-chupate-los-dedos",
+          "nombre": "Camarones chúpate los dedos",
+          "descripcion": "Camarones fritos, con cáscara o pelados, en una salsa término medio.",
+          "precio": 300,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "ceviches",
+      "nombre": "Ceviches",
+      "tipo": "mariscos",
+      "productos": [
+        {
+          "id": "ceviche-camaron",
+          "nombre": "Ceviche de camarón",
+          "descripcion": "Camarón curtido en limón con tomate, cebolla, pepino y cilantro.",
+          "precio": 160,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1/2 orden",
+              "precio": 160
+            },
+            {
+              "nombre": "1 orden",
+              "precio": 190
+            },
+            {
+              "nombre": "1 litro",
+              "precio": 270
+            }
+          ]
+        },
+        {
+          "id": "ceviche-pescado",
+          "nombre": "Ceviche de pescado",
+          "descripcion": "Pescado curtido en limón con tomate, cebolla y cilantro.",
+          "precio": 130,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1/2 orden",
+              "precio": 130
+            },
+            {
+              "nombre": "1 orden",
+              "precio": 160
+            },
+            {
+              "nombre": "1 litro",
+              "precio": 200
+            }
+          ]
+        },
+        {
+          "id": "ceviche-camaron-cocido",
+          "nombre": "Ceviche de camarón cocido",
+          "descripcion": "Camarón cocido picadito con tomate, cebolla, pepino y cilantro.",
+          "precio": 180,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1/2 orden",
+              "precio": 180
+            },
+            {
+              "nombre": "1 orden",
+              "precio": 220
+            },
+            {
+              "nombre": "1 litro",
+              "precio": 330
+            }
+          ]
+        },
+        {
+          "id": "ceviche-tropical",
+          "nombre": "Ceviche tropical",
+          "descripcion": "Ceviche fresco con un toque frutal, estilo tropical.",
+          "precio": 170,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1/2 orden",
+              "precio": 170
+            },
+            {
+              "nombre": "1 orden",
+              "precio": 200
+            },
+            {
+              "nombre": "1 litro",
+              "precio": 280
+            }
+          ]
+        },
+        {
+          "id": "ceviche-mixto",
+          "nombre": "Ceviche mixto camarón y pescado",
+          "descripcion": "Camarón y pescado curtidos en limón con tomate, cebolla y cilantro.",
+          "precio": 160,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1/2 orden",
+              "precio": 160
+            },
+            {
+              "nombre": "1 orden",
+              "precio": 190
+            },
+            {
+              "nombre": "1 litro",
+              "precio": 270
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cocteles",
+      "nombre": "Cócteles",
+      "tipo": "mariscos",
+      "productos": [
+        {
+          "id": "coctel-camaron",
+          "nombre": "Cóctel de camarón",
+          "descripcion": "Camarón en salsa coctelera con aguacate, cebolla, pepino y cilantro.",
+          "precio": 180,
+          "foto": "/images/coctel-camaron.webp",
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Mediano",
+              "precio": 180
+            },
+            {
+              "nombre": "Grande",
+              "precio": 220
+            }
+          ]
+        },
+        {
+          "id": "coctel-camaron-pulpo",
+          "nombre": "Cóctel de camarón y pulpo",
+          "descripcion": "Camarón y pulpo en salsa coctelera con aguacate y pepino.",
+          "precio": 180,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Mediano",
+              "precio": 180
+            },
+            {
+              "nombre": "Grande",
+              "precio": 220
+            }
+          ]
+        },
+        {
+          "id": "coctel-pulpo",
+          "nombre": "Cóctel de pulpo",
+          "descripcion": "Pulpo tierno en salsa coctelera con aguacate, cebolla y cilantro.",
+          "precio": 220,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Mediano",
+              "precio": 220
+            },
+            {
+              "nombre": "Grande",
+              "precio": 260
+            }
+          ]
+        },
+        {
+          "id": "coctel-campechana",
+          "nombre": "Cóctel campechana",
+          "descripcion": "Mezcla de mariscos en salsa coctelera con aguacate y pepino.",
+          "precio": 180,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Mediano",
+              "precio": 180
+            },
+            {
+              "nombre": "Grande",
+              "precio": 220
+            }
+          ]
+        },
+        {
+          "id": "coctel-pata-de-mula",
+          "nombre": "Cóctel de pata de mula",
+          "descripcion": "Pata de mula en salsa coctelera con cebolla, pepino y cilantro.",
+          "precio": 120,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Mediano",
+              "precio": 120
+            },
+            {
+              "nombre": "Grande",
+              "precio": 170
+            }
+          ]
+        },
+        {
+          "id": "coctel-ostion",
+          "nombre": "Cóctel de ostión",
+          "descripcion": "Ostión fresco en salsa coctelera con cebolla, pepino y cilantro.",
+          "precio": 150,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Mediano",
+              "precio": 150
+            },
+            {
+              "nombre": "Grande",
+              "precio": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tostadas",
+      "nombre": "Tostadas",
+      "tipo": "mariscos",
+      "productos": [
+        {
+          "id": "tostada-ceviche-camaron",
+          "nombre": "Tostada de ceviche de camarón",
+          "descripcion": "Tostada crujiente con ceviche de camarón fresco.",
+          "precio": 65,
+          "disponible": true
+        },
+        {
+          "id": "tostada-ceviche-pescado",
+          "nombre": "Tostada de ceviche de pescado",
+          "descripcion": "Tostada crujiente con ceviche de pescado fresco.",
+          "precio": 55,
+          "disponible": true
+        },
+        {
+          "id": "tostada-camaron-cocido",
+          "nombre": "Tostada de camarón cocido",
+          "descripcion": "Tostada con camarón cocido picado y su salsita.",
+          "precio": 100,
+          "disponible": true
+        },
+        {
+          "id": "tostada-ceviche-camaron-pulpo",
+          "nombre": "Tostada de ceviche de camarón y pulpo",
+          "descripcion": "Tostada con ceviche de camarón y pulpo.",
+          "precio": 100,
+          "disponible": true
+        },
+        {
+          "id": "tostada-ceviche-mixto",
+          "nombre": "Tostada de ceviche mixto",
+          "descripcion": "Tostada con ceviche de camarón y pescado.",
+          "precio": 60,
+          "disponible": true
+        },
+        {
+          "id": "tostada-ceviche-tropical",
+          "nombre": "Tostada de ceviche tropical",
+          "descripcion": "Tostada con ceviche estilo tropical.",
+          "precio": 75,
+          "disponible": true
+        },
+        {
+          "id": "tostada-pulpo",
+          "nombre": "Tostada de pulpo",
+          "descripcion": "Tostada crujiente cargada de pulpo.",
+          "precio": 150,
+          "disponible": true
+        },
+        {
+          "id": "tostada-especial",
+          "nombre": "Tostada especial",
+          "descripcion": "Camarón, pulpo, calamar y ceviche.",
+          "precio": 150,
+          "disponible": true
+        },
+        {
+          "id": "tostada-jaiba",
+          "nombre": "Tostada de jaiba",
+          "descripcion": "Tostada crujiente con jaiba preparada.",
+          "precio": 130,
+          "disponible": true
+        },
+        {
+          "id": "tostada-aguachile",
+          "nombre": "Tostada de aguachile",
+          "descripcion": "Rojo, verde o negro.",
+          "precio": 120,
+          "etiquetas": [
+            "picante"
+          ],
+          "disponible": true
+        },
+        {
+          "id": "tostada-aguachile-pulpo",
+          "nombre": "Tostada de aguachile con pulpo",
+          "descripcion": "Tostada con aguachile de camarón y pulpo.",
+          "precio": 180,
+          "etiquetas": [
+            "picante"
+          ],
+          "disponible": true
+        },
+        {
+          "id": "tostada-camaron-cocido-pulpo",
+          "nombre": "Tostada de camarón cocido y pulpo",
+          "descripcion": "Tostada con camarón cocido y pulpo.",
+          "precio": 180,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "barra-caliente",
+      "nombre": "Barra caliente",
+      "tipo": "mariscos",
+      "productos": [
+        {
+          "id": "camarones-mojo-de-ajo",
+          "nombre": "Camarones al mojo de ajo",
+          "descripcion": "Camarones salteados en mantequilla con bastante ajo.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "camarones-costa-azul",
+          "nombre": "Camarones Costa Azul",
+          "descripcion": "Camarones rellenos de queso y envueltos en tocino.",
+          "precio": 300,
+          "disponible": true
+        },
+        {
+          "id": "camarones-veracruzana",
+          "nombre": "Camarones a la veracruzana",
+          "descripcion": "Camarones en salsa de jitomate con aceitunas y chile güero.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "camarones-mantequilla",
+          "nombre": "Camarones a la mantequilla",
+          "descripcion": "Camarones salteados en mantequilla, jugosos y llenos de sabor.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "camarones-rancheros",
+          "nombre": "Camarones rancheros",
+          "descripcion": "Camarones guisados en salsa ranchera de jitomate y chile.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "camarones-vallarta",
+          "nombre": "Camarones Vallarta",
+          "descripcion": "Cocinados con tocino, pimiento verde y gratinados con queso.",
+          "precio": 250,
+          "foto": "/images/camarones-vallarta.webp",
+          "disponible": true
+        },
+        {
+          "id": "camarones-culichy",
+          "nombre": "Camarones culichy",
+          "descripcion": "Preparados en crema verde.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "camarones-diabla",
+          "nombre": "Camarones a la diabla",
+          "descripcion": "Camarones bañados en salsa picosa de chiles rojos.",
+          "precio": 220,
+          "etiquetas": [
+            "picante"
+          ],
+          "disponible": true
+        },
+        {
+          "id": "camarones-empanizados",
+          "nombre": "Camarones empanizados",
+          "descripcion": "Camarones empanizados, dorados y crujientes.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "camarones-chipotle",
+          "nombre": "Camarones al chipotle",
+          "descripcion": "Camarones en cremosa salsa de chipotle.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "camarones-sarandeados",
+          "nombre": "Camarones sarandeados",
+          "descripcion": "En corte mariposa con cáscara, bañados en salsa ranchera.",
+          "precio": 300,
+          "disponible": true
+        },
+        {
+          "id": "pulpo-enamorado",
+          "nombre": "Pulpo enamorado",
+          "descripcion": "Cocinado con cebolla blanca y cilantro, con un toque de la casa.",
+          "precio": 250,
+          "disponible": true
+        },
+        {
+          "id": "pulpo-ajillo",
+          "nombre": "Pulpo al ajillo",
+          "descripcion": "Al mojo de ajo.",
+          "precio": 250,
+          "disponible": true
+        },
+        {
+          "id": "mojarra-frita",
+          "nombre": "Mojarra frita",
+          "descripcion": "Mojarra entera frita, dorada y crujiente.",
+          "precio": 160,
+          "foto": "/images/mojarra-frita.webp",
+          "disponible": true
+        },
+        {
+          "id": "chicharron-de-botete",
+          "nombre": "Chicharrón de botete",
+          "descripcion": "Trocitos de botete fritos, dorados y crujientes.",
+          "precio": 250,
+          "disponible": true
+        },
+        {
+          "id": "filete-plancha",
+          "nombre": "Filete a la plancha",
+          "descripcion": "Filete de pescado a la plancha, ligero y jugoso.",
+          "precio": 170,
+          "disponible": true
+        },
+        {
+          "id": "filete-mojo-de-ajo",
+          "nombre": "Filete al mojo de ajo",
+          "descripcion": "Filete de pescado bañado en mojo de ajo.",
+          "precio": 180,
+          "disponible": true
+        },
+        {
+          "id": "filete-empanizado",
+          "nombre": "Filete empanizado",
+          "descripcion": "Filete de pescado empanizado, dorado y crujiente.",
+          "precio": 200,
+          "foto": "/images/filete-empanizado.webp",
+          "disponible": true
+        },
+        {
+          "id": "filete-sarandeado",
+          "nombre": "Filete sarandeado",
+          "descripcion": "Filete de pescado zarandeado al estilo Sinaloa.",
+          "precio": 200,
+          "disponible": true
+        },
+        {
+          "id": "filete-rockefeller",
+          "nombre": "Filete Rockefeller",
+          "descripcion": "Filete a la plancha bañado con una crema de brócoli y zanahoria.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "parrilla-mixta",
+          "nombre": "Parrilla mixta",
+          "descripcion": "Camarones a la diabla, culichy y filete empanizado, quesadilla de marlín y camarón enchilado.",
+          "precio": 600,
+          "disponible": true
+        },
+        {
+          "id": "parrilla-de-camaron",
+          "nombre": "Parrilla de camarón",
+          "descripcion": "Camarones a la diabla, culichy, empanizados y costa azul, más quesadilla de camarón enchilado.",
+          "precio": 700,
+          "disponible": true
+        },
+        {
+          "id": "filete-empapelado",
+          "nombre": "Filete empapelado",
+          "descripcion": "Sencillo. Filete de pescado cocinado envuelto en papel, muy jugoso.",
+          "precio": 200,
+          "disponible": true
+        },
+        {
+          "id": "empapelado-de-mariscos",
+          "nombre": "Empapelado de mariscos",
+          "descripcion": "Mariscos mixtos al vapor con una crema de la casa y vegetales.",
+          "precio": 300,
+          "disponible": true
+        },
+        {
+          "id": "filete-al-agasajo",
+          "nombre": "Filete al Agasajo",
+          "descripcion": "Filete a la plancha, con una capa de mariscos cocinados en salsa ranchera.",
+          "precio": 280,
+          "foto": "/images/filete-al-agasajo.webp",
+          "disponible": true
+        },
+        {
+          "id": "camarones-rellenos",
+          "nombre": "Camarones rellenos",
+          "descripcion": "Con tocino, jamón, salsa ranchera y gratinados.",
+          "precio": 350,
+          "disponible": true
+        },
+        {
+          "id": "molcajete-mar-y-tierra",
+          "nombre": "Molcajete mar y tierra",
+          "descripcion": "Ribeye, camarones, pechuga de pollo, chorizo español, queso y nopal.",
+          "precio": 400,
+          "foto": "/images/molcajete-mar-y-tierra.webp",
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "caldos",
+      "nombre": "Caldos",
+      "tipo": "sopa",
+      "productos": [
+        {
+          "id": "cahuamanta",
+          "nombre": "Cahuamanta",
+          "descripcion": "Caldo de mantarraya estilo Sinaloa, bien sazonado y caliente.",
+          "precio": 120,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1/2 sencilla",
+              "precio": 120
+            },
+            {
+              "nombre": "1/2 con camarón",
+              "precio": 160
+            },
+            {
+              "nombre": "Orden sencilla",
+              "precio": 210
+            },
+            {
+              "nombre": "Orden con camarón",
+              "precio": 260
+            }
+          ]
+        },
+        {
+          "id": "siete-mares",
+          "nombre": "7 mares",
+          "descripcion": "Caldo bien surtido de mariscos y pescado.",
+          "precio": 170,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1/2 orden",
+              "precio": 170
+            },
+            {
+              "nombre": "1 orden (1 lt)",
+              "precio": 310
+            }
+          ]
+        },
+        {
+          "id": "caldo-pescado",
+          "nombre": "Caldo de pescado",
+          "descripcion": "Caldo de pescado con verduras, sazón casero.",
+          "precio": 150,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1/2 caldo",
+              "precio": 150
+            },
+            {
+              "nombre": "1 orden",
+              "precio": 210
+            }
+          ]
+        },
+        {
+          "id": "caldo-camaron",
+          "nombre": "Caldo de camarón",
+          "descripcion": "Caldo de camarón con verduras, bien picosito si gustas.",
+          "precio": 170,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1/2 caldo",
+              "precio": 170
+            },
+            {
+              "nombre": "1 orden",
+              "precio": 290
+            }
+          ]
+        },
+        {
+          "id": "albondigas-camaron",
+          "nombre": "Albóndigas de camarón",
+          "descripcion": "Albóndigas de camarón en caldo de jitomate.",
+          "precio": 210,
+          "disponible": true
+        },
+        {
+          "id": "albondigas-pescado",
+          "nombre": "Albóndigas de pescado",
+          "descripcion": "Albóndigas de pescado en caldo de jitomate.",
+          "precio": 190,
+          "disponible": true
+        },
+        {
+          "id": "agregar-pulpo-caldo",
+          "nombre": "Agregar pulpo",
+          "descripcion": "Extra para tu caldo.",
+          "precio": 60,
+          "tipo": "general",
+          "disponible": true
+        },
+        {
+          "id": "agregar-aleta-caldo",
+          "nombre": "Agregar aleta",
+          "descripcion": "Extra para tu caldo.",
+          "precio": 80,
+          "tipo": "general",
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "tacos",
+      "nombre": "Tacos",
+      "tipo": "taco",
+      "productos": [
+        {
+          "id": "taco-pescado-capeado",
+          "nombre": "Taco de pescado capeado",
+          "descripcion": "Pescado capeado crujiente con repollo, salsa y crema.",
+          "precio": 40,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 40
+            },
+            {
+              "nombre": "Harina",
+              "precio": 45
+            }
+          ]
+        },
+        {
+          "id": "taco-pescado-sin-capear",
+          "nombre": "Taco de pescado sin capear",
+          "descripcion": "Pescado guisado sin capear, con repollo y salsa.",
+          "precio": 50,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 50
+            },
+            {
+              "nombre": "Harina",
+              "precio": 55
+            }
+          ]
+        },
+        {
+          "id": "taco-camaron-capeado",
+          "nombre": "Taco de camarón capeado",
+          "descripcion": "Camarón capeado crujiente con repollo, salsa y crema.",
+          "precio": 50,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 50
+            },
+            {
+              "nombre": "Harina",
+              "precio": 60
+            }
+          ]
+        },
+        {
+          "id": "taco-camaron-sin-capear",
+          "nombre": "Taco de camarón sin capear",
+          "descripcion": "Camarón guisado sin capear, con repollo y salsa.",
+          "precio": 60,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 60
+            },
+            {
+              "nombre": "Harina",
+              "precio": 70
+            }
+          ]
+        },
+        {
+          "id": "taco-cahuamanta",
+          "nombre": "Taco de cahuamanta",
+          "descripcion": "Taco de mantarraya guisada estilo Sinaloa.",
+          "precio": 50,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 50
+            },
+            {
+              "nombre": "Harina",
+              "precio": 60
+            }
+          ]
+        },
+        {
+          "id": "taco-pescado-especial",
+          "nombre": "Taco de pescado especial",
+          "descripcion": "Encebollado al mojo de ajo.",
+          "precio": 60,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 60
+            },
+            {
+              "nombre": "Harina",
+              "precio": 70
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quesadillas",
+      "nombre": "Quesadillas",
+      "tipo": "taco",
+      "productos": [
+        {
+          "id": "quesadilla-camaron-enchilado",
+          "nombre": "Quesadilla de camarón enchilado",
+          "descripcion": "Quesadilla con camarón enchilado y queso derretido.",
+          "precio": 75,
+          "etiquetas": [
+            "picante"
+          ],
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 75
+            },
+            {
+              "nombre": "Harina",
+              "precio": 85
+            }
+          ]
+        },
+        {
+          "id": "quesadilla-camaron-mantequilla",
+          "nombre": "Quesadilla de camarón a la mantequilla",
+          "descripcion": "Quesadilla con camarón a la mantequilla y queso derretido.",
+          "precio": 70,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 70
+            },
+            {
+              "nombre": "Harina",
+              "precio": 80
+            }
+          ]
+        },
+        {
+          "id": "quesadilla-camaron-mojo-de-ajo",
+          "nombre": "Quesadilla de camarón al mojo de ajo",
+          "descripcion": "Quesadilla con camarón al mojo de ajo y queso derretido.",
+          "precio": 70,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 70
+            },
+            {
+              "nombre": "Harina",
+              "precio": 80
+            }
+          ]
+        },
+        {
+          "id": "quesadilla-camaron-capeado",
+          "nombre": "Quesadilla de camarón capeado",
+          "descripcion": "Quesadilla con camarón capeado y queso derretido.",
+          "precio": 60,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 60
+            },
+            {
+              "nombre": "Harina",
+              "precio": 70
+            }
+          ]
+        },
+        {
+          "id": "quesadilla-gobernador",
+          "nombre": "Quesadilla gobernador",
+          "descripcion": "Clásica sinaloense: camarón guisado con queso derretido.",
+          "precio": 75,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 75
+            },
+            {
+              "nombre": "Harina",
+              "precio": 85
+            }
+          ]
+        },
+        {
+          "id": "quesadilla-marlin",
+          "nombre": "Quesadilla de marlín",
+          "descripcion": "Quesadilla con marlín ahumado guisado y queso derretido.",
+          "precio": 65,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 65
+            },
+            {
+              "nombre": "Harina",
+              "precio": 75
+            }
+          ]
+        },
+        {
+          "id": "quesadilla-pulpo-enchilado",
+          "nombre": "Quesadilla de pulpo enchilado",
+          "descripcion": "Quesadilla con pulpo enchilado y queso derretido.",
+          "precio": 120,
+          "etiquetas": [
+            "picante"
+          ],
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 120
+            },
+            {
+              "nombre": "Harina",
+              "precio": 130
+            }
+          ]
+        },
+        {
+          "id": "quesadilla-pulpo-mantequilla",
+          "nombre": "Quesadilla de pulpo a la mantequilla",
+          "descripcion": "Quesadilla con pulpo a la mantequilla y queso derretido.",
+          "precio": 110,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 110
+            },
+            {
+              "nombre": "Harina",
+              "precio": 120
+            }
+          ]
+        },
+        {
+          "id": "quesadilla-agasajito",
+          "nombre": "Quesadilla Agasajito",
+          "descripcion": "Camarones, pulpo y calamar.",
+          "precio": 85,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 85
+            },
+            {
+              "nombre": "Harina",
+              "precio": 100
+            }
+          ]
+        },
+        {
+          "id": "quesadilla-mar-y-tierra",
+          "nombre": "Quesadilla mar y tierra",
+          "descripcion": "Camarones y ribeye.",
+          "precio": 80,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 80
+            },
+            {
+              "nombre": "Harina",
+              "precio": 90
+            }
+          ]
+        },
+        {
+          "id": "quesadilla-pescado-sin-capear",
+          "nombre": "Quesadilla de pescado sin capear",
+          "descripcion": "Quesadilla con pescado guisado y queso derretido.",
+          "precio": 60,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 60
+            },
+            {
+              "nombre": "Harina",
+              "precio": 70
+            }
+          ]
+        },
+        {
+          "id": "quesadilla-pescado-capeado",
+          "nombre": "Quesadilla de pescado capeado",
+          "descripcion": "Quesadilla con pescado capeado y queso derretido.",
+          "precio": 50,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 50
+            },
+            {
+              "nombre": "Harina",
+              "precio": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "empanadas",
+      "nombre": "Empanadas",
+      "tipo": "mariscos",
+      "productos": [
+        {
+          "id": "empanadas-camaron",
+          "nombre": "Empanadas de camarón",
+          "descripcion": "Empanadas doraditas rellenas de camarón guisado.",
+          "precio": 180,
+          "disponible": true
+        },
+        {
+          "id": "empanadas-marlin",
+          "nombre": "Empanadas de marlín",
+          "descripcion": "Empanadas doraditas rellenas de marlín guisado.",
+          "precio": 160,
+          "disponible": true
+        },
+        {
+          "id": "empanadas-gobernador",
+          "nombre": "Empanadas gobernador",
+          "descripcion": "Empanadas rellenas de camarón y queso, estilo gobernador.",
+          "precio": 180,
+          "disponible": true
+        },
+        {
+          "id": "enchiladas-camaron",
+          "nombre": "Enchiladas de camarón",
+          "descripcion": "Enchiladas rellenas de camarón, bañadas en salsa y queso.",
+          "precio": 180,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "entradas-especialidades",
+      "nombre": "Entradas y especialidades",
+      "tipo": "general",
+      "productos": [
+        {
+          "id": "chiles-rellenos",
+          "nombre": "Chiles rellenos",
+          "descripcion": "Chile güero relleno de tampico y filadelfia, empanizado y gratinado con queso.",
+          "precio": 50,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1 pieza",
+              "precio": 50
+            },
+            {
+              "nombre": "3 piezas",
+              "precio": 120
+            }
+          ]
+        },
+        {
+          "id": "curricanes",
+          "nombre": "Curricanes",
+          "descripcion": "Orden de 3. Medallones de atún rellenos de filadelfia, aguacate y cangrejo en chipotle, con anguila.",
+          "precio": 150,
+          "disponible": true
+        },
+        {
+          "id": "camarones-roka",
+          "nombre": "Camarones roka",
+          "descripcion": "Camarones de aguachile en tempura, glaseados con salsa agridulce y aderezo de chipotle.",
+          "precio": 250,
+          "disponible": true
+        },
+        {
+          "id": "baby-crab",
+          "nombre": "Baby crab",
+          "descripcion": "Rollo de jaiba empanizado con relleno de tampico, aguacate y pepino.",
+          "precio": 120,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1 pieza",
+              "precio": 120
+            },
+            {
+              "nombre": "2 piezas",
+              "precio": 200
+            }
+          ]
+        },
+        {
+          "id": "bomba",
+          "nombre": "Bomba",
+          "descripcion": "Bola de arroz rellena de filadelfia, tampico, aguacate, res, pollo y tocino, empanizada.",
+          "precio": 180,
+          "disponible": true
+        },
+        {
+          "id": "pollo-tempura",
+          "nombre": "Pollo tempura",
+          "descripcion": "Agridulce, sobre una cama de arroz blanco, con topping de filadelfia y tampico.",
+          "precio": 180,
+          "disponible": true
+        },
+        {
+          "id": "teriyaki-mixto",
+          "nombre": "Teriyaki mixto",
+          "descripcion": "Verduras salteadas sobre una cama de arroz, con pechuga, res y camarón en salsa teriyaki.",
+          "precio": 190,
+          "disponible": true
+        },
+        {
+          "id": "teriyaki-camaron",
+          "nombre": "Teriyaki de camarón",
+          "descripcion": "Verduras salteadas sobre una cama de arroz, con camarones en salsa teriyaki.",
+          "precio": 190,
+          "disponible": true
+        },
+        {
+          "id": "teriyaki-res",
+          "nombre": "Teriyaki de res",
+          "descripcion": "Verduras salteadas sobre una cama de arroz, con res en salsa teriyaki.",
+          "precio": 180,
+          "disponible": true
+        },
+        {
+          "id": "teriyaki-pollo",
+          "nombre": "Teriyaki de pollo",
+          "descripcion": "Verduras salteadas sobre una cama de arroz, con pollo en salsa teriyaki.",
+          "precio": 170,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "rollos-naturales",
+      "nombre": "Rollos naturales",
+      "tipo": "general",
+      "productos": [
+        {
+          "id": "california-roll",
+          "nombre": "California roll",
+          "descripcion": "Por dentro filadelfia, aguacate, pepino y tampico, con ajonjolí.",
+          "precio": 150,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1 pieza",
+              "precio": 150
+            },
+            {
+              "nombre": "2 piezas",
+              "precio": 250
+            }
+          ]
+        },
+        {
+          "id": "la-people-roll",
+          "nombre": "La People roll",
+          "descripcion": "Dentro camarón empanizado, aguacate y pepino; por fuera filadelfia, aguacate y tampico.",
+          "precio": 180,
+          "disponible": true
+        },
+        {
+          "id": "junior-roll",
+          "nombre": "Junior roll",
+          "descripcion": "Dentro pepino, camarón tempura, filadelfia y aguacate; fuera atún con sriracha, cebolla crunch y anguila.",
+          "precio": 200,
+          "disponible": true
+        },
+        {
+          "id": "la-patroncita-roll",
+          "nombre": "La Patroncita roll",
+          "descripcion": "Dentro aguacate, filadelfia, camarón, surimi y pepino; forrado de aguacate con tampico spicy y camarón.",
+          "precio": 200,
+          "disponible": true
+        },
+        {
+          "id": "avocado-roll",
+          "nombre": "Avocado roll",
+          "descripcion": "Dentro aguacate, filadelfia, camarón y tampico; forrado de aguacate.",
+          "precio": 180,
+          "disponible": true
+        },
+        {
+          "id": "nevado-roll",
+          "nombre": "Nevado roll",
+          "descripcion": "Dentro aguacate, tampico y camarón empanizado; forrado de filadelfia.",
+          "precio": 180,
+          "disponible": true
+        },
+        {
+          "id": "aguachile-roll",
+          "nombre": "Aguachile roll",
+          "descripcion": "Dentro filadelfia y camarón; forrado de aguacate y coronado con aguachile verde, rojo o negro.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "tuna-spicy",
+          "nombre": "Tuna spicy",
+          "descripcion": "Dentro filadelfia, aguacate, pepino y surimi empanizado, con topping de atún spicy.",
+          "precio": 190,
+          "disponible": true
+        },
+        {
+          "id": "camaron-roll",
+          "nombre": "Camarón roll",
+          "descripcion": "Dentro aguacate, filadelfia y camarón empanizado; forrado de camarón.",
+          "precio": 180,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "rollos-empanizados",
+      "nombre": "Rollos empanizados",
+      "tipo": "general",
+      "productos": [
+        {
+          "id": "guamuchilazo-roll",
+          "nombre": "Guamuchilazo roll",
+          "descripcion": "Dentro filadelfia, aguacate, jaiba, camarón y pulpo; fuera tampico, aguacate y salsa de anguila.",
+          "precio": 180,
+          "disponible": true
+        },
+        {
+          "id": "hot-roll",
+          "nombre": "Hot roll",
+          "descripcion": "Dentro filadelfia, camarón, aguacate, jaiba y chile serrano; por fuera tampico spicy.",
+          "precio": 180,
+          "etiquetas": [
+            "picante"
+          ],
+          "disponible": true
+        },
+        {
+          "id": "gordon-blue",
+          "nombre": "Gordon blue",
+          "descripcion": "Dentro filadelfia, pollo, tocino y aguacate, gratinado con queso.",
+          "precio": 180,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1 pieza",
+              "precio": 180
+            },
+            {
+              "nombre": "2 piezas",
+              "precio": 300
+            }
+          ]
+        },
+        {
+          "id": "camaron-blue",
+          "nombre": "Camarón blue",
+          "descripcion": "Dentro filadelfia, camarón, aguacate y tocino, gratinado con queso.",
+          "precio": 180,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1 pieza",
+              "precio": 180
+            },
+            {
+              "nombre": "2 piezas",
+              "precio": 300
+            }
+          ]
+        },
+        {
+          "id": "san-luis-roll",
+          "nombre": "San Luis roll",
+          "descripcion": "Dentro filadelfia, camarón, aguacate, pulpo y surimi; coronado con camarón tempura y anguila.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "ebi-roll",
+          "nombre": "Ebi roll",
+          "descripcion": "Dentro aguacate, filadelfia y camarón.",
+          "precio": 150,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1 pieza",
+              "precio": 150
+            },
+            {
+              "nombre": "2 piezas",
+              "precio": 250
+            }
+          ]
+        },
+        {
+          "id": "chicken-roll",
+          "nombre": "Chicken roll",
+          "descripcion": "Dentro aguacate, filadelfia y pechuga de pollo.",
+          "precio": 150,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1 pieza",
+              "precio": 150
+            },
+            {
+              "nombre": "2 piezas",
+              "precio": 250
+            }
+          ]
+        },
+        {
+          "id": "beef-roll",
+          "nombre": "Beef",
+          "descripcion": "Dentro aguacate, filadelfia y res.",
+          "precio": 150,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1 pieza",
+              "precio": 150
+            },
+            {
+              "nombre": "2 piezas",
+              "precio": 250
+            }
+          ]
+        },
+        {
+          "id": "vaquero-roll",
+          "nombre": "Vaquero roll",
+          "descripcion": "Dentro aguacate, filadelfia, res, tocino, chile toreado y queso.",
+          "precio": 150,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1 pieza",
+              "precio": 150
+            },
+            {
+              "nombre": "2 piezas",
+              "precio": 250
+            }
+          ]
+        },
+        {
+          "id": "jalapeno-roll",
+          "nombre": "Jalapeño roll",
+          "descripcion": "Dentro aguacate, filadelfia y camarón empanizado; fuera tampico y rodajas de jalapeño.",
+          "precio": 180,
+          "disponible": true
+        },
+        {
+          "id": "mar-y-tierra-roll",
+          "nombre": "Mar y tierra",
+          "descripcion": "Dentro filadelfia, camarón, aguacate y res.",
+          "precio": 150,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1 pieza",
+              "precio": 150
+            },
+            {
+              "nombre": "2 piezas",
+              "precio": 250
+            }
+          ]
+        },
+        {
+          "id": "surimi-roll",
+          "nombre": "Surimi",
+          "descripcion": "Dentro aguacate, filadelfia, camarón, surimi y pepino.",
+          "precio": 180,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "horneados",
+      "nombre": "Horneados",
+      "tipo": "general",
+      "productos": [
+        {
+          "id": "agasajo-roll",
+          "nombre": "Agasajo roll",
+          "descripcion": "Dentro aguacate, filadelfia y camarón; fuera queso, camarón, pulpo, atún y salmón en aderezo spicy.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "octopus-roll",
+          "nombre": "Octopus roll",
+          "descripcion": "Dentro filadelfia, aguacate, camarón y pulpo; topping de camarón, pulpo y queso gratinado.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "salmoncito-roll",
+          "nombre": "Salmoncito roll",
+          "descripcion": "Dentro jaiba empanizada; por fuera filadelfia y salmón, con topping de chile güero.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "aguacatito-hot",
+          "nombre": "Aguacatito hot",
+          "descripcion": "Dentro filadelfia y camarón empanizado, forrado de aguacate; topping de res, pollo, queso y aderezo spicy.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "tuca-roll",
+          "nombre": "Tuca roll",
+          "descripcion": "Dentro filadelfia, aguacate y jaiba empanizada, forrado de atún; topping de camarón, tocino y queso.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "cangrejito-hot",
+          "nombre": "Cangrejito hot",
+          "descripcion": "Dentro filadelfia, aguacate, pollo y tocino; topping de jaiba con mayonesa, queso y sriracha.",
+          "precio": 220,
+          "disponible": true
+        },
+        {
+          "id": "calichy-roll",
+          "nombre": "Calichy roll",
+          "descripcion": "Dentro filadelfia, aguacate, res y tocino, empanizado; topping de queso, filadelfia, sriracha y anguila.",
+          "precio": 220,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "desayunos",
+      "nombre": "Desayunos",
+      "tipo": "desayuno",
+      "productos": [
+        {
+          "id": "chilaquiles",
+          "nombre": "Chilaquiles verdes o rojos",
+          "descripcion": "Totopos bañados en salsa verde o roja, con crema y queso.",
+          "precio": 80,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Sencillos",
+              "precio": 80
+            },
+            {
+              "nombre": "Con huevo",
+              "precio": 100
+            }
+          ]
+        },
+        {
+          "id": "chilaquiles-carne-asada",
+          "nombre": "Chilaquiles con carne asada",
+          "descripcion": "Chilaquiles en salsa con crema y queso, acompañados de carne asada.",
+          "precio": 150,
+          "foto": "/images/chilaquiles-carne-asada.webp",
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Sencillos",
+              "precio": 150
+            },
+            {
+              "nombre": "Con huevo",
+              "precio": 170
+            }
+          ]
+        },
+        {
+          "id": "omelette-camaron",
+          "nombre": "Omelette de camarón",
+          "descripcion": "Omelette esponjoso relleno de camarón.",
+          "precio": 150,
+          "disponible": true
+        },
+        {
+          "id": "omelette-sencillo",
+          "nombre": "Omelette sencillo",
+          "descripcion": "Omelette esponjoso, sencillo y bien servido.",
+          "precio": 100,
+          "disponible": true
+        },
+        {
+          "id": "omelette-chilorio",
+          "nombre": "Omelette con chilorio",
+          "descripcion": "Omelette relleno de chilorio, el clásico de Sinaloa.",
+          "precio": 120,
+          "disponible": true
+        },
+        {
+          "id": "omelette-machaca",
+          "nombre": "Omelette con machaca",
+          "descripcion": "Omelette relleno de machaca de res.",
+          "precio": 140,
+          "disponible": true
+        },
+        {
+          "id": "omelette-mantarraya",
+          "nombre": "Omelette de mantarraya",
+          "descripcion": "Omelette relleno de mantarraya guisada.",
+          "precio": 140,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "huevos-al-gusto",
+      "nombre": "Huevos al gusto",
+      "tipo": "desayuno",
+      "productos": [
+        {
+          "id": "huevos-mexicana",
+          "nombre": "Huevos a la mexicana",
+          "descripcion": "Huevos revueltos con jitomate, cebolla y chile.",
+          "precio": 100,
+          "disponible": true
+        },
+        {
+          "id": "huevos-chorizo",
+          "nombre": "Huevos con chorizo",
+          "descripcion": "Huevos revueltos con chorizo.",
+          "precio": 100,
+          "disponible": true
+        },
+        {
+          "id": "huevos-jamon",
+          "nombre": "Huevos con jamón",
+          "descripcion": "Huevos revueltos con jamón.",
+          "precio": 100,
+          "disponible": true
+        },
+        {
+          "id": "huevos-rancheros",
+          "nombre": "Huevos rancheros",
+          "descripcion": "Huevos estrellados sobre tortilla, bañados en salsa ranchera.",
+          "precio": 100,
+          "disponible": true
+        },
+        {
+          "id": "huevos-chilorio",
+          "nombre": "Huevos con chilorio",
+          "descripcion": "Huevos revueltos con chilorio estilo Sinaloa.",
+          "precio": 150,
+          "disponible": true
+        },
+        {
+          "id": "huevos-machaca",
+          "nombre": "Huevos con machaca",
+          "descripcion": "Huevos revueltos con machaca de res.",
+          "precio": 120,
+          "disponible": true
+        },
+        {
+          "id": "huevos-tocino",
+          "nombre": "Huevos con tocino",
+          "descripcion": "Huevos revueltos con tocino dorado.",
+          "precio": 120,
+          "disponible": true
+        },
+        {
+          "id": "huevos-camaron",
+          "nombre": "Huevos con camarón",
+          "descripcion": "Huevos revueltos con camarón.",
+          "precio": 150,
+          "disponible": true
+        },
+        {
+          "id": "huevos-revueltos",
+          "nombre": "Huevos revueltos",
+          "descripcion": "Huevos revueltos sencillos.",
+          "precio": 80,
+          "disponible": true
+        },
+        {
+          "id": "huevos-estrellados",
+          "nombre": "Huevos estrellados",
+          "descripcion": "Huevos estrellados al gusto.",
+          "precio": 80,
+          "disponible": true
+        },
+        {
+          "id": "machaca-res-o-camaron",
+          "nombre": "Machaca de res o camarón",
+          "descripcion": "Machaca de res o de camarón con huevo.",
+          "precio": 160,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "infantil",
+      "nombre": "Infantil",
+      "tipo": "general",
+      "productos": [
+        {
+          "id": "nuggets-pollo",
+          "nombre": "Nuggets de pollo",
+          "descripcion": "Con arroz o papas, a escoger.",
+          "precio": 70,
+          "disponible": true
+        },
+        {
+          "id": "dedos-pescado",
+          "nombre": "Dedos de pescado",
+          "descripcion": "Con arroz o papas, a escoger.",
+          "precio": 80,
+          "disponible": true
+        },
+        {
+          "id": "dedos-queso",
+          "nombre": "Dedos de queso",
+          "descripcion": "Con arroz o papas, a escoger.",
+          "precio": 80,
+          "disponible": true
+        },
+        {
+          "id": "quesadilla-infantil",
+          "nombre": "Quesadilla",
+          "descripcion": "Quesadilla sencilla de queso derretido.",
+          "precio": 15,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Maíz",
+              "precio": 15
+            },
+            {
+              "nombre": "Harina",
+              "precio": 20
+            }
+          ]
+        },
+        {
+          "id": "papas-infantil",
+          "nombre": "Papas",
+          "precio": 45,
+          "disponible": true
+        },
+        {
+          "id": "arroz-infantil",
+          "nombre": "Arroz",
+          "precio": 25,
+          "disponible": true
+        },
+        {
+          "id": "coctel-infantil",
+          "nombre": "Cóctel infantil (mini)",
+          "descripcion": "Cóctel de camarón en tamaño mini para los peques.",
+          "precio": 130,
+          "tipo": "mariscos",
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "bebidas-opciones-dulces",
+      "nombre": "Bebidas y opciones dulces",
+      "tipo": "bebida",
+      "productos": [
+        {
+          "id": "hot-cakes",
+          "nombre": "Orden de hot cakes",
+          "descripcion": "Hot cakes esponjosos con mantequilla y miel.",
+          "precio": 120,
+          "tipo": "desayuno",
+          "disponible": true
+        },
+        {
+          "id": "pan-frances",
+          "nombre": "Pan francés",
+          "descripcion": "Pan francés dorado con canela, mantequilla y miel.",
+          "precio": 120,
+          "tipo": "desayuno",
+          "disponible": true
+        },
+        {
+          "id": "cafe-americano",
+          "nombre": "Café americano",
+          "precio": 40,
+          "tipo": "cafe",
+          "disponible": true
+        },
+        {
+          "id": "chocomilk",
+          "nombre": "Chocomilk",
+          "precio": 60,
+          "disponible": true
+        },
+        {
+          "id": "jugo-verde",
+          "nombre": "Jugo verde",
+          "precio": 70,
+          "disponible": true
+        },
+        {
+          "id": "jugo-naranja",
+          "nombre": "Jugo de naranja",
+          "precio": 70,
+          "disponible": true
+        },
+        {
+          "id": "licuado-platano",
+          "nombre": "Licuado de plátano",
+          "precio": 80,
+          "disponible": true
+        },
+        {
+          "id": "licuado-fresa",
+          "nombre": "Licuado de fresa",
+          "precio": 80,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nombre": "Bebidas",
+      "tipo": "bebida",
+      "productos": [
+        {
+          "id": "sodas",
+          "nombre": "Sodas",
+          "precio": 30,
+          "disponible": true
+        },
+        {
+          "id": "cafe",
+          "nombre": "Café",
+          "precio": 30,
+          "tipo": "cafe",
+          "disponible": true
+        },
+        {
+          "id": "monster",
+          "nombre": "Monster",
+          "precio": 45,
+          "disponible": true
+        },
+        {
+          "id": "limonada-natural",
+          "nombre": "Limonada natural",
+          "precio": 40,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Chica",
+              "precio": 40
+            },
+            {
+              "nombre": "Grande",
+              "precio": 60
+            }
+          ]
+        },
+        {
+          "id": "limonada-mineral",
+          "nombre": "Limonada mineral",
+          "precio": 50,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Chica",
+              "precio": 50
+            },
+            {
+              "nombre": "Grande",
+              "precio": 70
+            }
+          ]
+        },
+        {
+          "id": "jugo-naranja-natural",
+          "nombre": "Jugo de naranja natural",
+          "precio": 70,
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Chico",
+              "precio": 70
+            },
+            {
+              "nombre": "Grande",
+              "precio": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cervezas",
+      "nombre": "Cervezas y micheladas",
+      "tipo": "cerveza",
+      "productos": [
+        {
+          "id": "tecate",
+          "nombre": "Tecate Light / Roja",
+          "precio": 40,
+          "disponible": true
+        },
+        {
+          "id": "modelo-especial",
+          "nombre": "Modelo Especial",
+          "precio": 50,
+          "disponible": true
+        },
+        {
+          "id": "cubeta-tecate",
+          "nombre": "Cubeta Tecate",
+          "precio": 200,
+          "disponible": true
+        },
+        {
+          "id": "cubeta-modelo",
+          "nombre": "Cubeta Modelo",
+          "precio": 300,
+          "disponible": true
+        },
+        {
+          "id": "michelada-tecate",
+          "nombre": "Michelada Tecate",
+          "precio": 80,
+          "disponible": true
+        },
+        {
+          "id": "michelada-modelo",
+          "nombre": "Michelada Modelo",
+          "precio": 90,
+          "foto": "/images/michelada-modelo.webp",
+          "disponible": true
+        },
+        {
+          "id": "michelada-grande",
+          "nombre": "Michelada grande",
+          "precio": 150,
+          "disponible": true
+        },
+        {
+          "id": "cubeta-10-cuartitos",
+          "nombre": "Cubeta de 10 cuartitos",
+          "precio": 250,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "clamatos",
+      "nombre": "Clamatos",
+      "tipo": "bebida",
+      "productos": [
+        {
+          "id": "clamato-sin-alcohol",
+          "nombre": "Clamato sin alcohol",
+          "precio": 50,
+          "disponible": true
+        },
+        {
+          "id": "clamato-camaron",
+          "nombre": "Clamato con camarón",
+          "precio": 150,
+          "disponible": true
+        },
+        {
+          "id": "clamato-camaron-pulpo",
+          "nombre": "Clamato con camarón y pulpo",
+          "precio": 180,
+          "disponible": true
+        },
+        {
+          "id": "shot-clamato",
+          "nombre": "Shot de clamato",
+          "precio": 20,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "extras",
+      "nombre": "Extras",
+      "tipo": "general",
+      "productos": [
+        {
+          "id": "extra-arroz",
+          "nombre": "Orden de arroz",
+          "precio": 25,
+          "disponible": true
+        },
+        {
+          "id": "extra-frijol",
+          "nombre": "Orden de frijol",
+          "precio": 25,
+          "disponible": true
+        },
+        {
+          "id": "extra-papas",
+          "nombre": "Papas",
+          "precio": 35,
+          "disponible": true
+        },
+        {
+          "id": "extra-aguacate",
+          "nombre": "Aguacate",
+          "precio": 25,
+          "disponible": true
+        },
+        {
+          "id": "extra-pulpo",
+          "nombre": "Pulpo",
+          "precio": 80,
+          "disponible": true
+        },
+        {
+          "id": "extra-camaron",
+          "nombre": "Camarón",
+          "precio": 60,
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": "extras-sushi",
+      "nombre": "Extras de sushi",
+      "tipo": "general",
+      "productos": [
+        {
+          "id": "extra-soya",
+          "nombre": "Soya",
+          "precio": 10,
+          "disponible": true
+        },
+        {
+          "id": "extra-aderezo",
+          "nombre": "Aderezo",
+          "precio": 15,
+          "disponible": true
+        },
+        {
+          "id": "extra-anguila",
+          "nombre": "Anguila",
+          "precio": 20,
+          "disponible": true
+        },
+        {
+          "id": "extra-tampico",
+          "nombre": "Tampico",
+          "precio": 25,
+          "disponible": true
+        }
+      ]
+    }
+  ]
+}

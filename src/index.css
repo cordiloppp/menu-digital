@@ -1,0 +1,118 @@
+@import 'tailwindcss';
+
+/* Los valores reales salen de restaurant.json → tema (los inyecta vite.config.ts en <head>) */
+@theme inline {
+  --color-marca: var(--marca);
+  --color-marca-texto: var(--marca-texto);
+  --color-acento: var(--acento);
+  --color-acento-texto: var(--acento-texto);
+  --font-display: var(--fuente-titulos);
+  --font-sans: var(--fuente-texto);
+}
+
+@theme {
+  --color-fondo: #f6f4f0;
+  --color-tinta: #1b1816;
+  --color-suave: #6b625b;
+  --color-linea: #e8e3dc;
+
+  --ease-suave: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-subir: subir 0.38s var(--ease-suave) both;
+  --animate-bajar: bajar 0.22s ease-in both;
+  --animate-aparecer: aparecer 0.25s ease-out both;
+  --animate-desvanecer: desvanecer 0.22s ease-in both;
+  --animate-pop: pop 0.3s var(--ease-suave);
+  --animate-toast: toast 2.2s var(--ease-suave) both;
+
+  @keyframes subir {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+  }
+  @keyframes bajar {
+    from { transform: translateY(0); }
+    to { transform: translateY(100%); }
+  }
+  @keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes desvanecer {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  @keyframes pop {
+    0% { transform: scale(0.85); }
+    60% { transform: scale(1.08); }
+    100% { transform: scale(1); }
+  }
+  @keyframes toast {
+    0% { opacity: 0; transform: translate(-50%, 12px); }
+    12% { opacity: 1; transform: translate(-50%, 0); }
+    85% { opacity: 1; transform: translate(-50%, 0); }
+    100% { opacity: 0; transform: translate(-50%, 6px); }
+  }
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-fondo font-sans text-tinta antialiased;
+  }
+  h1, h2, h3 {
+    @apply font-display;
+    text-wrap: balance;
+  }
+  :focus-visible {
+    outline: 2px solid var(--marca);
+    outline-offset: 2px;
+  }
+}
+
+/* Las tarjetas aparecen suavemente al entrar en pantalla (sin JavaScript; donde no hay soporte, simplemente se ven) */
+@keyframes revelar {
+  from { transform: translateY(18px) scale(0.985); }
+  to { transform: none; }
+}
+@supports (animation-timeline: view()) {
+  .revelar {
+    animation: revelar linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 35%;
+  }
+}
+
+/* Las fotos aparecen con un fundido al terminar de cargar */
+.foto {
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+.foto[data-lista] {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .revelar { animation: none; }
+}
+
+@utility sin-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+}
+
+@utility pb-seguro {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+@utility sombra-suave {
+  box-shadow: 0 1px 2px rgb(27 24 22 / 0.04), 0 6px 20px -10px rgb(27 24 22 / 0.18);
+}

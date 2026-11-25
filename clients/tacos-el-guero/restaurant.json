@@ -1,0 +1,426 @@
+{
+  "mode": "cliente",
+  "sitio": {
+    "url": "https://menu-tacos-el-guero.vercel.app",
+    "creditosFotos": "/creditos-fotos.html"
+  },
+  "negocio": {
+    "nombre": "Tacos El Güero",
+    "slogan": "Adobada al trompo desde 1998",
+    "descripcion": "Taquería tijuanense de tradición: adobada al trompo, asada al carbón y quesabirria. Pide en línea por WhatsApp para llevar o a domicilio.",
+    "logo": "/images/logo.webp",
+    "portada": "/images/portada.webp",
+    "imagenCompartir": "/images/og-image.jpg",
+    "whatsapp": "526640000000",
+    "telefono": "(664) 000 0000",
+    "direccion": "Blvd. Agua Caliente 1234, Col. Chapultepec, 22020 Tijuana, B.C.",
+    "googleMaps": "https://maps.google.com/?q=Blvd.+Agua+Caliente+1234,+Chapultepec,+Tijuana",
+    "horario": {
+      "lunes": [],
+      "martes": [
+        {
+          "abre": "18:00",
+          "cierra": "01:00"
+        }
+      ],
+      "miercoles": [
+        {
+          "abre": "18:00",
+          "cierra": "01:00"
+        }
+      ],
+      "jueves": [
+        {
+          "abre": "18:00",
+          "cierra": "01:00"
+        }
+      ],
+      "viernes": [
+        {
+          "abre": "18:00",
+          "cierra": "03:00"
+        }
+      ],
+      "sabado": [
+        {
+          "abre": "13:00",
+          "cierra": "03:00"
+        }
+      ],
+      "domingo": [
+        {
+          "abre": "11:00",
+          "cierra": "23:00"
+        }
+      ]
+    },
+    "redes": {
+      "facebook": "https://facebook.com/",
+      "instagram": "https://instagram.com/",
+      "tiktok": "https://tiktok.com/"
+    },
+    "entrega": {
+      "paraLlevar": true,
+      "domicilio": true,
+      "costoEnvio": 35,
+      "notaDomicilio": "Entregamos en Chapultepec, Hipódromo, Cacho y zona Río."
+    }
+  },
+  "tema": {
+    "colorPrimario": "#9E3A22",
+    "colorSecundario": "#C99A3E",
+    "tipografia": "callejera"
+  },
+  "promociones": [
+    {
+      "id": "martes-2x1",
+      "titulo": "Martes 2x1 en adobada",
+      "descripcion": "Pide 2 tacos de adobada y paga solo 1. Toda la noche.",
+      "dias": [
+        "martes"
+      ]
+    },
+    {
+      "id": "combo-familiar",
+      "titulo": "Combo Güero: 10 tacos + 2 aguas",
+      "descripcion": "Asada o adobada, con 2 aguas grandes por $390.",
+      "dias": [
+        "viernes",
+        "sabado",
+        "domingo"
+      ]
+    }
+  ],
+  "categorias": [
+    {
+      "id": "tacos",
+      "nombre": "Tacos",
+      "productos": [
+        {
+          "id": "taco-adobada",
+          "nombre": "Taco de adobada",
+          "descripcion": "Cerdo marinado al trompo con piña, cebolla, cilantro y salsa de la casa.",
+          "precio": 35,
+          "foto": "/images/taco-adobada.webp",
+          "etiquetas": [
+            "mas-vendido"
+          ],
+          "disponible": true
+        },
+        {
+          "id": "taco-asada",
+          "nombre": "Taco de asada",
+          "descripcion": "Carne asada al carbón en tortilla de maíz, con guacamole y salsa roja.",
+          "precio": 42,
+          "foto": "/images/taco-asada.webp",
+          "etiquetas": [
+            "mas-vendido"
+          ],
+          "disponible": true
+        },
+        {
+          "id": "taco-cabeza",
+          "nombre": "Taco de cabeza",
+          "descripcion": "Suavecito, al vapor, con cebolla y cilantro.",
+          "precio": 35,
+          "foto": "/images/taco-cabeza.webp",
+          "disponible": true
+        },
+        {
+          "id": "taco-tripa",
+          "nombre": "Taco de tripa dorada",
+          "descripcion": "Tripita bien doradita en su jugo. Para los que saben.",
+          "precio": 45,
+          "foto": "/images/taco-tripa.webp",
+          "disponible": false
+        },
+        {
+          "id": "taco-pollo",
+          "nombre": "Taco de pollo",
+          "descripcion": "Pollo asado al carbón con pico de gallo.",
+          "precio": 35,
+          "foto": "/images/taco-pollo.webp",
+          "disponible": true
+        },
+        {
+          "id": "taco-nopal",
+          "nombre": "Taco de nopal y queso",
+          "descripcion": "Nopal asado con queso fresco, frijoles y salsa verde.",
+          "precio": 32,
+          "foto": "/images/taco-nopal.webp",
+          "etiquetas": [
+            "vegetariano"
+          ],
+          "disponible": true
+        }
+      ],
+      "tipo": "taco"
+    },
+    {
+      "id": "especialidades",
+      "nombre": "Especialidades",
+      "productos": [
+        {
+          "id": "quesabirria",
+          "nombre": "Quesabirria",
+          "descripcion": "Tortilla dorada con queso y birria de res. Incluye consomé para remojar.",
+          "precio": 55,
+          "foto": "/images/quesabirria.webp",
+          "etiquetas": [
+            "mas-vendido",
+            "nuevo"
+          ],
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "1 pieza",
+              "precio": 55
+            },
+            {
+              "nombre": "Orden de 3 con consomé",
+              "precio": 150
+            }
+          ]
+        },
+        {
+          "id": "vampiro",
+          "nombre": "Vampiro",
+          "descripcion": "Tortilla tostada con queso gratinado, tu carne favorita y guacamole.",
+          "precio": 65,
+          "foto": "/images/vampiro.webp",
+          "disponible": true
+        },
+        {
+          "id": "mulita",
+          "nombre": "Mulita",
+          "descripcion": "Dos tortillas con queso fundido y carne, como un sándwich de taco.",
+          "precio": 70,
+          "foto": "/images/mulita.webp",
+          "disponible": true
+        },
+        {
+          "id": "caramelo",
+          "nombre": "Caramelo",
+          "descripcion": "Tortilla de harina sobaquera con queso, asada y guacamole.",
+          "precio": 75,
+          "foto": "/images/caramelo.webp",
+          "etiquetas": [
+            "picante"
+          ],
+          "disponible": true
+        },
+        {
+          "id": "papa-asada",
+          "nombre": "Papa asada rellena",
+          "descripcion": "Papa grande con mantequilla, queso, crema, tocino y asada.",
+          "precio": 145,
+          "foto": "/images/papa-asada.webp",
+          "disponible": true
+        }
+      ],
+      "tipo": "taco"
+    },
+    {
+      "id": "burritos-quesadillas",
+      "nombre": "Burritos y Quesadillas",
+      "productos": [
+        {
+          "id": "burrito-asada",
+          "nombre": "Burrito de asada",
+          "descripcion": "Asada, frijoles, arroz, guacamole y pico de gallo en tortilla de harina.",
+          "precio": 140,
+          "foto": "/images/burrito-asada.webp",
+          "etiquetas": [
+            "mas-vendido"
+          ],
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Normal",
+              "precio": 140
+            },
+            {
+              "nombre": "Percherón (doble carne)",
+              "precio": 195
+            }
+          ]
+        },
+        {
+          "id": "burrito-adobada",
+          "nombre": "Burrito de adobada",
+          "descripcion": "Adobada al trompo con piña, frijoles y queso.",
+          "precio": 130,
+          "foto": "/images/burrito-adobada.webp",
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Normal",
+              "precio": 130
+            },
+            {
+              "nombre": "Percherón (doble carne)",
+              "precio": 185
+            }
+          ]
+        },
+        {
+          "id": "burrito-chile-relleno",
+          "nombre": "Burrito de chile relleno",
+          "descripcion": "Chile poblano relleno de queso, capeado, con frijoles y arroz.",
+          "precio": 120,
+          "foto": "/images/burrito-chile-relleno.webp",
+          "etiquetas": [
+            "vegetariano",
+            "picante"
+          ],
+          "disponible": true
+        },
+        {
+          "id": "quesadilla-harina",
+          "nombre": "Quesadilla de harina",
+          "descripcion": "Tortilla de harina grande con queso Chihuahua fundido.",
+          "precio": 75,
+          "foto": "/images/quesadilla-harina.webp",
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Sencilla",
+              "precio": 75
+            },
+            {
+              "nombre": "Con asada o adobada",
+              "precio": 115
+            }
+          ]
+        },
+        {
+          "id": "chimichanga",
+          "nombre": "Chimichanga",
+          "descripcion": "Burrito dorado y crujiente, bañado en crema y queso.",
+          "precio": 135,
+          "foto": "/images/chimichanga.webp",
+          "etiquetas": [
+            "nuevo"
+          ],
+          "disponible": true
+        }
+      ],
+      "tipo": "burrito"
+    },
+    {
+      "id": "bebidas",
+      "nombre": "Bebidas",
+      "productos": [
+        {
+          "id": "agua-horchata",
+          "nombre": "Agua de horchata",
+          "descripcion": "Hecha en casa, con canela.",
+          "precio": 35,
+          "foto": "/images/agua-horchata.webp",
+          "etiquetas": [
+            "mas-vendido"
+          ],
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Chica",
+              "precio": 35
+            },
+            {
+              "nombre": "Grande",
+              "precio": 50
+            }
+          ]
+        },
+        {
+          "id": "agua-jamaica",
+          "nombre": "Agua de jamaica",
+          "descripcion": "Natural, poco dulce.",
+          "precio": 35,
+          "foto": "/images/agua-jamaica.webp",
+          "disponible": true,
+          "variantes": [
+            {
+              "nombre": "Chica",
+              "precio": 35
+            },
+            {
+              "nombre": "Grande",
+              "precio": 50
+            }
+          ]
+        },
+        {
+          "id": "coca-vidrio",
+          "nombre": "Coca-Cola de vidrio",
+          "descripcion": "355 ml, bien fría.",
+          "precio": 40,
+          "foto": "/images/coca-vidrio.webp",
+          "disponible": true
+        },
+        {
+          "id": "jarritos",
+          "nombre": "Jarritos",
+          "descripcion": "Tamarindo, mandarina, toronja o limón.",
+          "precio": 35,
+          "foto": "/images/jarritos.webp",
+          "disponible": true
+        },
+        {
+          "id": "cerveza",
+          "nombre": "Cerveza nacional",
+          "descripcion": "Tecate, Modelo o Pacífico. Solo para consumo en el local.",
+          "precio": 55,
+          "foto": "/images/cerveza.webp",
+          "disponible": true
+        },
+        {
+          "id": "cafe-olla",
+          "nombre": "Café de olla",
+          "descripcion": "Con piloncillo y canela.",
+          "precio": 35,
+          "foto": "/images/cafe-olla.webp",
+          "disponible": false
+        }
+      ],
+      "tipo": "bebida"
+    },
+    {
+      "id": "postres",
+      "nombre": "Postres",
+      "productos": [
+        {
+          "id": "flan",
+          "nombre": "Flan napolitano",
+          "descripcion": "Receta de la abuela, con cajeta.",
+          "precio": 55,
+          "foto": "/images/flan.webp",
+          "disponible": true
+        },
+        {
+          "id": "churros",
+          "nombre": "Churros con cajeta",
+          "descripcion": "Orden de 4, recién hechos, con azúcar y canela.",
+          "precio": 60,
+          "foto": "/images/churros.webp",
+          "etiquetas": [
+            "nuevo"
+          ],
+          "disponible": true
+        },
+        {
+          "id": "pay-queso",
+          "nombre": "Pay de queso",
+          "descripcion": "Rebanada cremosa con mermelada de fresa.",
+          "precio": 65,
+          "foto": "/images/pay-queso.webp",
+          "etiquetas": [
+            "vegetariano"
+          ],
+          "disponible": true
+        }
+      ],
+      "tipo": "postre"
+    }
+  ]
+}
